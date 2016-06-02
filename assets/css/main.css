@@ -1,0 +1,15 @@
+.d-ib {
+  display: inline-block;
+}
+
+#header {
+  background: #EEE;
+}
+
+#info {
+  background: #FFF;
+}
+
+#more-products img, #more-products .caption {
+  width: 45%;
+}

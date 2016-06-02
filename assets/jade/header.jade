@@ -1,0 +1,69 @@
+#header
+	.container
+		.row
+			p.pull-left DEfault Welcome Msg!
+			
+			.dropdown.pull-right 
+				//Cuenta
+				button.btn.btn-default.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") My Account <span class="caret"></span>
+				ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+					li.text-center
+						img(src="assets/images/f1.jpg")
+
+					li.divider(role="separator")
+					li.text-center Log Out
+
+			.dropdown.pull-right 
+				//tipo moneda
+				button.btn.btn-default.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") $ Currency  <span class="caret"></span>
+				ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+					li.text-center Soles S/.
+
+					li.text-center Dolars $
+
+			.dropdown.pull-right 
+				//idioma
+				button.btn.btn-default.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Language <img src="assets/images/flag1.png"> <span class="caret"></span>
+				ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+					li.text-center
+						img(src="assets/images/flag1.png")
+					li.text-center
+						img(src="assets/images/flag2.png")
+
+	#info
+		.container
+			.row
+				.col-md-4
+					.col-md-2
+						i tic toc
+					.col-md-10
+						.row
+							h4 Opening Time
+						.row
+							p  9:00 am -10:00pm
+				.col-md-4.text-center
+					img(src="assets/images/logo.png")
+				.col-md-4.text-center
+					form.rl-t
+						input(type='search' placeholder='Buscar...')
+						button.fa.fa-search
+	#menu
+		.container
+			.row
+				nav.col-xs-12
+					ul.list-menu.pull-left
+						li HOME
+						li CONTACT US
+					.my-cart.pull-right
+						.row
+							i Run
+							p My Cart
+						.row
+							p 2 items - 244.00
+ 
+
+					
+				
+
+
+

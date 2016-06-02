@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jade</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <p class="pull-left">DEfault Welcome Msg!</p>
+          <div class="dropdown pull-right"> 
+            <!--Cuenta-->
+            <button type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-default dropdown-toggle">My Account <span class="caret"></span></button>
+            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+              <li class="text-center"><img src="assets/images/f1.jpg"></li>
+              <li role="separator" class="divider"></li>
+              <li class="text-center">Log Out</li>
+            </ul>
+          </div>
+          <div class="dropdown pull-right"> 
+            <!--tipo moneda-->
+            <button type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-default dropdown-toggle">$ Currency  <span class="caret"></span></button>
+            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+              <li class="text-center">Soles S/.</li>
+              <li class="text-center">Dolars $</li>
+            </ul>
+          </div>
+          <div class="dropdown pull-right"> 
+            <!--idioma-->
+            <button type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-default dropdown-toggle">Language <img src="assets/images/flag1.png"> <span class="caret"></span></button>
+            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+              <li class="text-center"><img src="assets/images/flag1.png"></li>
+              <li class="text-center"><img src="assets/images/flag2.png"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="col-md-2"><i>tic toc</i></div>
+              <div class="col-md-10">
+                <div class="row">
+                  <h4>Opening Time</h4>
+                </div>
+                <div class="row">
+                  <p> 9:00 am -10:00pm</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center"><img src="assets/images/logo.png"></div>
+            <div class="col-md-4 text-center">
+              <form class="rl-t">
+                <input type="search" placeholder="Buscar...">
+                <button class="fa fa-search"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu">
+        <div class="container">
+          <div class="row">
+            <nav class="col-xs-12">
+              <ul class="list-menu pull-left">
+                <li>HOME</li>
+                <li>CONTACT US</li>
+              </ul>
+              <div class="my-cart pull-right">
+                <div class="row"><i>Run</i>
+                  <p>My Cart</p>
+                </div>
+                <div class="row">
+                  <p>2 items - 244.00</p>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hero-section" class="hero-section">
+      <div class="collection text-center">
+        <h2>AUTUMN/WINTER LOOKBOOK</h2>
+        <p>- 2016 COLLECTION -</p>
+        <input type="checkbox" checked class="check-uno">
+        <input type="checkbox" class="check-dos">
+      </div>
+    </div>
+    <div id="latest" class="container">
+      <div class="row">
+        <div class="col-md-5 text-center">
+          <h3>ACCESORIES <BR>COLLECTION</h3>
+        </div>
+        <div class="col-md-7">
+          <div class="ARRIVAL">
+            <h3>NEW ARRIVAL</h3>
+            <p> <a>SHOP NOW</a></p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Latest BestSeller Sale-->
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/a1.jpg" alt="...">
+            <div class="caption">
+              <h4>Deliver Wide</h4>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/b1.jpg" alt="...">
+            <div class="caption">
+              <h4>Deliver Wide</h4>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/c1.jpg" alt="...">
+            <div class="caption">
+              <h4>Deliver Wide</h4>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/d1.jpg" alt="...">
+            <div class="caption">
+              <h4>Deliver Wide</h4>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="marcas">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client1.jpg" alt="..."></a></div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client2.jpg" alt="..."></a></div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client3.jpg" alt="..."></a></div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client4.jpg" alt="..."></a></div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client5.jpg" alt="..."></a></div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="thumbnail"><a><img src="assets/images/client6.jpg" alt="..."></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="more-products" class="container">
+      <hr>
+      <!-- CLOTHING EQUIPMENST JEWELLERY-->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="row"><img src="assets/images/a1.jpg" alt="..." class="d-ib">
+              <div class="caption d-ib">
+                <h4>Deliver Wide</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="blog" class="container">
+      <hr>
+      <!--BLOG-->
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/blog2.jpg" alt="...">
+            <h4>THE SAMPLE HEADING TITLE</h4>
+            <P>27/11/2015</P>
+            <P>lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf</P><a>Read more...</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/blog1.jpg" alt="...">
+            <h4>THE SAMPLE HEADING TITLE</h4>
+            <P>27/11/2015</P>
+            <P>lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf</P><a>Read more...</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/blog2.jpg" alt="...">
+            <h4>THE SAMPLE HEADING TITLE</h4>
+            <P>27/11/2015</P>
+            <P>lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf</P><a>Read more...</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail"><img src="assets/images/blog3.jpg" alt="...">
+            <h4>THE SAMPLE HEADING TITLE</h4>
+            <P>27/11/2015</P>
+            <P>lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf</P><a>Read more...</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-2"><i>ring					</i></div>
+          <div class="col-md-10">
+            <h5>	ORDER ONLINE NOW</h5>
+            <p>	Call Us: (0123) 456789</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-2"><i>plane					</i></div>
+          <div class="col-md-10">
+            <h5>	FREE WORLDWIDE SHIPPING</h5>
+            <p>	On order Over $100</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-2"><i>ring					</i></div>
+          <div class="col-md-10">
+            <h5>	30 DAYS MONEY BACK 100%</h5>
+            <p>	Satisfaction Guarantee</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="part-1">
+        <div class="container">
+          <div class="col-md-3">
+            <h5>ACCESORIES</h5>
+            <p>lorem ipsum nidf dsjnfds fndfindsifndskjfn jdsn fjdsnfdsjf nsdfnsdnf</p>
+          </div>
+          <div class="col-md-2">
+            <h5>My account</h5>
+            <ul>
+              <li>My aksjfhdd</li>
+              <li>My aksjfh</li>
+              <li>My aksjfhdd</li>
+              <li>My aksjfhdd</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Informartion</h5>
+            <ul>
+              <li>My aksjfhdd</li>
+              <li>My aksjfh</li>
+              <li>My aksjfhdd</li>
+              <li>My aksjfhdd</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>Extras</h5>
+            <ul>
+              <li>My aksjfhdd</li>
+              <li>My aksjfh</li>
+              <li>My aksjfhdd</li>
+              <li>My aksjfhdd</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>About us</h5>
+            <ul>
+              <li class="list-unstyled"> <i class="d-ib">here</i>
+                <p class="d-ib">My aksjfhdd</p>
+              </li>
+              <li class="list-unstyled"> <i class="d-ib">phone</i>
+                <p class="d-ib">My aksjfhdd</p>
+              </li>
+              <li class="list-unstyled"> <i class="d-ib">sms</i>
+                <p class="d-ib">My aksjfhdd</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="part-2">
+        <div class="container">
+          <h5 class="pull-left">	Copyright 2015 <span style="color : #C0F;" >BootExperts </span> All rights reserved</h5><img src="assets/images/payment.png" class="pull-right">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

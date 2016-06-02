@@ -1,0 +1,15 @@
+// *{outline: 1px solid blue;}
+// Variables
+$fondo-header:#EEE;
+$fondo-info:#FFF;
+
+
+// Reutilizables
+.d-ib{display:inline-block;}
+
+
+// clases
+#header{background:$fondo-header;}
+#info{background:$fondo-info;}
+
+#more-products img, #more-products .caption{ width:45%;}
