@@ -5,51 +5,96 @@ html(lang="en")
 	body
 		include ./header.jade
 
-		#hero-section.hero-section
-			.collection.text-center
-				h2 AUTUMN/WINTER LOOKBOOK
-				p - 2016 COLLECTION -
-				input.check-uno(type='checkbox' checked)
-				input.check-dos(type='checkbox' )
+		#hero-section.hero-section.p-rl
+			.collection.text-center.p-rl.img-responsive
+				h2.d-ib AUTUMN/WINTER LOOKBOOK
+				p - 2 0 1 6 &nbsp C O L L E C T I O N -
+			input.check-uno.p-ab(type='checkbox' checked)
+			input.check-dos.p-ab(type='checkbox' )
+
 		#latest.container
-			.row
+			.row.mt-5
 				.col-md-5.text-center
-					h3 ACCESORIES <BR>COLLECTION
+					img.img-100.img-responsive(src="assets/images/banner1.jpg" alt="...")
 				.col-md-7
-					.ARRIVAL
-						h3 NEW ARRIVAL
-						p 
-							a SHOP NOW
-			hr 
-			//Latest BestSeller Sale
-			.row
+					img.img-100.img-responsive(src="assets/images/banner2.jpg" alt="...")
+						
+			//separacion
+			.separacion.text-center
+				hr.d-ib
+				ul.nav.nav-pills.d-ib.text-center
+					li(role="presentation") 
+						a <
+					li(role="presentation")
+						a( href="#") LATEST
+					li(role="presentation")
+						a( href="#") BESTSELLER
+					li(role="presentation")
+						a( href="#") SALE
+					li(role="presentation") 
+						a >
+				hr.d-ib
+
+			.row#productos.p-rl
 				.col-sm-6.col-md-3
 					.thumbnail
+						.sale.pd-1.text-center.mg-1.p-ab.d-none SALE
+						.new.pd-1.text-center.mg-1.p-ab NEW
 						img(src="assets/images/a1.jpg" alt="...")
-						.caption
-							h4 Deliver Wide
-							p ...
+						.caption.text-center
+							h5 Deliver Wide
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star-o.d-ib
+							i.fa.fa-star-o.d-ib
+							p.precio $218.00
+							
 				.col-sm-6.col-md-3
 					.thumbnail
+						.sale.pd-1.text-center.mg-1.p-ab SALE
+						.new.pd-1.text-center.mg-1.p-ab NEW
 						img(src="assets/images/b1.jpg" alt="...")
-						.caption
-							h4 Deliver Wide
-							p ...
+						.caption.text-center
+							h5 Deliver Wide
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star-o.d-ib
+							i.fa.fa-star-o.d-ib
+							p.precio $218.00
+
 				.col-sm-6.col-md-3
 					.thumbnail
+						.sale.pd-1.text-center.mg-1.p-ab SALE
+						.new.pd-1.text-center.mg-1.p-ab.d-none NEW
 						img(src="assets/images/c1.jpg" alt="...")
-						.caption
-							h4 Deliver Wide
-							p ...
+						.caption.text-center
+							h5 Deliver Wide
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star-o.d-ib
+							i.fa.fa-star-o.d-ib
+							p.precio $218.00
+
 				.col-sm-6.col-md-3
 					.thumbnail
+						.sale.pd-1.text-center.mg-1.p-ab.d-none SALE
+						.new.pd-1.text-center.mg-1.p-ab NEW
 						img(src="assets/images/d1.jpg" alt="...")
-						.caption
-							h4 Deliver Wide
-							p ...
-		#marcas
+						.caption.text-center
+							h5 Deliver Wide
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star.d-ib
+							i.fa.fa-star-o.d-ib
+							i.fa.fa-star-o.d-ib
+							p.precio $218.00
+
+		#marcas.mt-5
 			.container
-				.row
+				.row.mg-5
 					.col-xs-6.col-md-2
 						.thumbnail
 							a
@@ -75,60 +120,129 @@ html(lang="en")
 								a
 									img(src="assets/images/client6.jpg" alt="...")
 		#more-products.container
-			hr 
+			//separacion
+			.separacion.text-center
+				hr.d-ib
+				ul.nav.nav-pills.d-ib.text-center
+					li(role="presentation") 
+						a <
+					li(role="presentation")
+						a( href="#") CLOTHING
+					li(role="presentation")
+						a( href="#") EQUIPMENTS
+					li(role="presentation")
+						a( href="#") JEWELLRY
+					li(role="presentation") 
+						a >
+				hr.d-ib
+
 			// CLOTHING EQUIPMENST JEWELLERY
 			.row
 				.col-sm-6.col-md-4
 					.thumbnail
 						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
+							.sale.pd-1.text-center.mg-1.p-ab SALE
+							.new.pd-1.text-center.mg-1.p-ab NEW
+							img.d-ib(src="assets/images/a2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
+				.col-sm-6.col-md-4
+					.thumbnail
+						.row.p-rl
+							.sale.pd-1.text-center.mg-1.p-ab.d-none SALE
+							.new.pd-1.text-center.mg-1.p-ab NEW
+							img.d-ib(src="assets/images/d2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
 				.col-sm-6.col-md-4
 					.thumbnail
 						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
-				.col-sm-6.col-md-4
-					.thumbnail
-						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
+							.sale.pd-1.text-center.mg-1.p-ab.d-none SALE
+							.new.pd-1.text-center.mg-1.p-ab.d-none NEW
+							img.d-ib(src="assets/images/g2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
 			.row
 				.col-sm-6.col-md-4
 					.thumbnail
 						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
+							.sale.pd-1.text-center.mg-1.p-ab.d-none.d-none SALE
+							.new.pd-1.text-center.mg-1.p-ab NEW
+							img.d-ib(src="assets/images/c2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
 				.col-sm-6.col-md-4
 					.thumbnail
 						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
+							.sale.pd-1.text-center.mg-1.p-ab SALE
+							.new.pd-1.text-center.mg-1.p-ab.d-none NEW
+							img.d-ib(src="assets/images/c2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
 				.col-sm-6.col-md-4
 					.thumbnail
 						.row
-							img.d-ib(src="assets/images/a1.jpg" alt="...")
-							.caption.d-ib
-								h4 Deliver Wide
-								p ...
+							.sale.pd-1.text-center.mg-1.p-ab.d-none SALE
+							.new.pd-1.text-center.mg-1.p-ab NEW
+							img.d-ib(src="assets/images/e2.jpg" alt="...")
+							.caption.text-center.d-ib
+								h5 Deliver Wide
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star.d-ib
+								i.fa.fa-star-o.d-ib
+								i.fa.fa-star-o.d-ib
+								p.precio $218.00
+
+
 		#blog.container
-			hr
+			//separacion
+			.separacion.text-center
+				hr.d-ib
+				ul.nav.nav-pills.d-ib.text-center
+					li(role="presentation") 
+						a <
+					li(role="presentation")
+						a( href="#") BLOG
+					li(role="presentation") 
+						a >
+				hr.d-ib
 			//BLOG
 			.row
 					.col-xs-6.col-md-3
 						.thumbnail
 							img(src="assets/images/blog2.jpg" alt="...")
-							h4 THE SAMPLE HEADING TITLE
+							h5 THE SAMPLE HEADING TITLE
 							P 27/11/2015
 							P lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf
 							a Read more...
@@ -136,47 +250,44 @@ html(lang="en")
 					.col-xs-6.col-md-3
 						.thumbnail
 							img(src="assets/images/blog1.jpg" alt="...")
-							h4 THE SAMPLE HEADING TITLE
+							h5 THE SAMPLE HEADING TITLE
 							P 27/11/2015
 							P lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf
 							a Read more...
 					.col-xs-6.col-md-3
 						.thumbnail
 							img(src="assets/images/blog2.jpg" alt="...")
-							h4 THE SAMPLE HEADING TITLE
+							h5 THE SAMPLE HEADING TITLE
 							P 27/11/2015
 							P lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf
 							a Read more...
 					.col-xs-6.col-md-3
 						.thumbnail
 							img(src="assets/images/blog3.jpg" alt="...")
-							h4 THE SAMPLE HEADING TITLE
+							h5 THE SAMPLE HEADING TITLE
 							P 27/11/2015
 							P lorem ipsum kjdnfjs ndfodjbds jsdhfusd sjdfbjdsf
 							a Read more...
-			.row
-				.col-md-4
-					.col-md-2
-						i ring					
-					.col-md-10
-						h5	ORDER ONLINE NOW
-						p	Call Us: (0123) 456789
-				.col-md-4
-					.col-md-2
-						i plane					
-					.col-md-10
-						h5	FREE WORLDWIDE SHIPPING
-						p	On order Over $100
-				.col-md-4
-
-
-
-
-					.col-md-2
-						i ring					
-					.col-md-10
-						h5	30 DAYS MONEY BACK 100%
-						p	Satisfaction Guarantee
+			.row.form-order.mt-5.text-center
+				ul.list-unstyled
+					li.col-md-4.mg-1
+						.col-md-2
+							i.fa.fa-plane					
+						.col-md-10
+							h5	ORDER ONLINE NOW
+							p	Call Us: (0123) 456789
+					li.col-md-4.mg-1
+						.col-md-2
+							i.fa.fa-plane					
+						.col-md-10
+							h5	FREE WORLDWIDE SHIPPING
+							p	On order Over $100
+					li.col-md-4.mg-1
+						.col-md-2
+							i.fa.fa-plane					
+						.col-md-10
+							h5	30 DAYS MONEY BACK 100%
+							p	Satisfaction Guarantee
 
 		include ./footer.jade
 

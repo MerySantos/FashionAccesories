@@ -34,6 +34,10 @@
   margin-top: 5%;
 }
 
+.mt-8 {
+  margin-top: 8%;
+}
+
 .pd-1 {
   padding: 1%;
 }
@@ -44,6 +48,35 @@
 
 .pd-5 {
   padding: 5%;
+}
+
+.p-ab {
+  position: absolute;
+}
+
+.p-rl {
+  position: relative;
+}
+
+.hero-section {
+  background-size: cover;
+  background: no-repeat 20% 30%;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.separacion {
+  margin: 3% auto;
+}
+
+.separacion hr {
+  width: 30%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -60,13 +93,25 @@ a {
   color: #000;
 }
 
+hr {
+  border: 2px solid #EEE;
+  border-left: none;
+  border-right: none;
+  height: 3px;
+}
+
 #header, #menu, #header button, .mycar button {
-  background: #F1F1F1;
+  background: #EEE;
   border: none;
 }
 
 #header nav, #menu .container nav {
   margin-bottom: 0;
+}
+
+.navbar-default {
+  background: inherit;
+  border: inherit;
 }
 
 #info {
@@ -84,12 +129,187 @@ a {
 
 .mycar i {
   font-size: 15px;
+  padding-top: 10%;
 }
 
 .mycar img {
   width: 30%;
 }
 
+.mycar i:hover {
+  background: #544949;
+  color: #FFF;
+}
+
+.mycar i:hover p {
+  color: inherit;
+}
+
+#hero-section {
+  height: 500px;
+  background: url(../images/slider1.jpg) no-repeat 20% 30%;
+  background-size: cover;
+}
+
+#hero-section .collection {
+  width: 50%;
+  color: #FFF;
+  top: 20%;
+  margin: auto;
+}
+
+#hero-section h2 {
+  color: inherit;
+  font-size: 3em;
+  font-weight: normal;
+  border: 0.1em solid #FFF;
+  padding: 2%;
+  width: 100%;
+}
+
+#hero-section p {
+  font-size: 1.5em;
+  padding: 2%;
+  color: inherit;
+}
+
+#hero-section input.check-uno {
+  bottom: 0;
+  left: 49%;
+}
+
+#hero-section input.check-dos {
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+}
+
+#productos .precio, #more-products .precio {
+  color: #E48080;
+}
+
+#productos img {
+  z-index: 100;
+}
+
+.sale, .new {
+  width: 20%;
+  color: #FFF;
+}
+
+.sale {
+  background: #544949;
+}
+
+.new {
+  background: #E48080;
+  top: 10%;
+}
+
+#marcas {
+  background: url(../images/client-bg.jpg) no-repeat 20% 30%;
+  background-size: cover;
+}
+
 #more-products img, #more-products .caption {
+  margin-left: 5%;
+  width: 40%;
+}
+
+#more-products .sale, #more-products .new {
+  margin-left: 5%;
+}
+
+#more-products .new {
+  top: 20%;
+}
+
+#blog .thumbnail a {
+  color: #E48080;
+}
+
+#blog .thumbnail {
+  border: none;
+}
+
+#blog .form-order {
+  color: #666;
+}
+
+#blog .form-order i {
+  font-size: 2em;
+  margin-top: 80%;
+  color: inherit;
+}
+
+#blog .form-order li {
+  border: 1px solid #EEE;
+  width: 30%;
+}
+
+#footer {
+  background: #EEE;
+}
+
+#footer .part-1 {
+  padding-top: 2%;
+}
+
+#footer i {
+  background: #FFF;
+}
+
+#footer .part-1 #accesories i {
+  font-size: 1.5em;
+}
+
+#footer .part-1 ul {
+  padding-left: 20px;
+}
+
+#footer .part-1 #about-us i {
+  border-radius: 50%;
+}
+
+#footer .part-2 {
+  background: #544949;
+}
+
+#footer .part-2 p {
+  color: #FFF;
+}
+
+#hero-section-cu {
+  color: #FFF;
+  height: 300px;
+  background: url(../images/client-bg.jpg);
+}
+
+#hero-section-cu h1, #hero-section-cu p {
+  color: inherit;
+}
+
+#hero-section-cu h1 {
+  background: #E48080;
+}
+
+#hero-section-cu .description-cu {
+  margin-right: 15%;
+}
+
+#contactanos input {
   width: 45%;
+  background: #EEE;
+  margin-bottom: 3%;
+}
+
+#contactanos textarea, #contactanos input#sub {
+  background: #EEE;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+#contactanos button {
+  background: #544949;
+  color: #FFF;
 }
