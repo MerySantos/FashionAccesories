@@ -1,7 +1,3 @@
-* {
-  outline: 1px solid blue;
-}
-
 .d-ib {
   display: inline-block;
 }
@@ -69,6 +65,10 @@ a {
   border: none;
 }
 
+#header nav, #menu .container nav {
+  margin-bottom: 0;
+}
+
 #info {
   background: #FFF;
 }
@@ -84,6 +84,10 @@ a {
 
 .mycar i {
   font-size: 15px;
+}
+
+.mycar img {
+  width: 30%;
 }
 
 #more-products img, #more-products .caption {

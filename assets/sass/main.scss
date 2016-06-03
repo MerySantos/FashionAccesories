@@ -1,4 +1,4 @@
-*{outline: 1px solid blue;}
+// *{outline: 1px solid blue;}
 // Variables
 $letra-titulo:serif;
 $letra-texto:sans-serif;
@@ -27,11 +27,12 @@ h1,h2,h3,h4,h5{text-transform:uppercase;font-weight:bold;}
 p {font-family:$letra-texto; color:$color-texto;}
 a{color:#000;}
 #header,#menu, #header button, .mycar button{background:$fondo-header;border:none;}
+#header nav,#menu .container nav{margin-bottom:0;}
 #info{background:$fondo-info;}
-// #datos ul{width:100%;}
 #info .reloj{font-size:50px;}
 #menu li a:hover{background:$color-realce;color:white;}
 .mycar i{font-size:15px;}
+.mycar img{width:30%;}
 
 
 
