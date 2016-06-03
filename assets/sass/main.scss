@@ -1,15 +1,38 @@
-// *{outline: 1px solid blue;}
+*{outline: 1px solid blue;}
 // Variables
-$fondo-header:#EEE;
+$letra-titulo:serif;
+$letra-texto:sans-serif;
+$color-texto:#666;
+$fondo-header:#F1F1F1;
 $fondo-info:#FFF;
+$color-realce:#E48080;
 
 
 // Reutilizables
 .d-ib{display:inline-block;}
-
+.tl-titulo{font-family:$letra-titulo;}
+.tl-texto{font-family:$letra-texto;}
+.mg-0{margin:0;}
+.mg-1{margin:1%;}
+.mg-2{margin:2%;}
+.mg-5{margin:5%;}
+.mt-2{margin-top:2%;}
+.mt-5{margin-top:5%;}
+.pd-1{padding:1%;}
+.pd-2{padding:2%;}
+.pd-5{padding:5%;}
 
 // clases
-#header{background:$fondo-header;}
+h1,h2,h3,h4,h5{text-transform:uppercase;font-weight:bold;}
+p {font-family:$letra-texto; color:$color-texto;}
+a{color:#000;}
+#header,#menu, #header button, .mycar button{background:$fondo-header;border:none;}
 #info{background:$fondo-info;}
+// #datos ul{width:100%;}
+#info .reloj{font-size:50px;}
+#menu li a:hover{background:$color-realce;color:white;}
+.mycar i{font-size:15px;}
+
+
 
 #more-products img, #more-products .caption{ width:45%;}

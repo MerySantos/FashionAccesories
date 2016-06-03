@@ -1,13 +1,89 @@
+* {
+  outline: 1px solid blue;
+}
+
 .d-ib {
   display: inline-block;
 }
 
-#header {
-  background: #EEE;
+.tl-titulo {
+  font-family: serif;
+}
+
+.tl-texto {
+  font-family: sans-serif;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
+.mg-1 {
+  margin: 1%;
+}
+
+.mg-2 {
+  margin: 2%;
+}
+
+.mg-5 {
+  margin: 5%;
+}
+
+.mt-2 {
+  margin-top: 2%;
+}
+
+.mt-5 {
+  margin-top: 5%;
+}
+
+.pd-1 {
+  padding: 1%;
+}
+
+.pd-2 {
+  padding: 2%;
+}
+
+.pd-5 {
+  padding: 5%;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  font-family: sans-serif;
+  color: #666;
+}
+
+a {
+  color: #000;
+}
+
+#header, #menu, #header button, .mycar button {
+  background: #F1F1F1;
+  border: none;
 }
 
 #info {
   background: #FFF;
+}
+
+#info .reloj {
+  font-size: 50px;
+}
+
+#menu li a:hover {
+  background: #E48080;
+  color: white;
+}
+
+.mycar i {
+  font-size: 15px;
 }
 
 #more-products img, #more-products .caption {
